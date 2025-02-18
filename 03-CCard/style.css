@@ -1,0 +1,111 @@
+    /* Existing CSS styles */
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        height: 100%;
+    }
+
+    body{
+        background-color: #f1f1f1;
+        font-family:'Segoe UI', sans-serif;
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .container{
+        margin: 0 auto;
+        max-width: 34rem;
+        width: 90%;
+    }
+
+    input{
+        background-color:transparent;
+        border:none;
+        color:#fff;
+        font: inherit;
+        width:auto;
+    }
+
+    input::placeholder{
+        color: #fff;
+    }
+
+    label{
+        display:block;
+    }
+
+    .card{
+        background-color: #171a1c;
+        border-radius: 14px;
+        color: #bebebe;
+        padding:32px;
+    }
+
+    .header {
+        margin-bottom: 5rem;
+        display: flex; /* Enable flexbox */
+        justify-content: space-between; /* Distribute space between title and logo */
+        align-items: center; /* Vertically align items */
+    }
+    
+    .title {
+        color: #fff;
+        font-size: 1.5rem;
+        /* Remove float: left; as flexbox handles positioning */
+    }
+    
+    .logo {
+        width: 140px;
+        height: 60px;
+        /* Remove float: right; as flexbox handles positioning */
+    }
+
+    .row{
+        margin-bottom: 1.5rem;
+        
+    }
+    .chip{
+        width: 6rem; 
+        height: 3rem;
+        margin-right: 2rem;
+    }
+
+    .content{
+        margin-bottom: 5rem;
+    }
+    
+    .content input{
+        outline: none;
+    }
+    .card-number{
+        font-size: 32px;
+    }
+    
+    .card-expire{
+        float:left;
+    }
+    .card-expire input{
+        font-size: 0.9rem;
+    }
+    .card-expire-month{
+        width: 22%;
+    }
+    .card-expire-month, .card-expire-Year{
+        float:left;
+    }
+
+    .card-cvv{
+        float:right;
+    }
+    
+    .card-cvv input{
+        width: 2rem;
+        text-align: center;
+        font-size: 0.9rem;
+    }
